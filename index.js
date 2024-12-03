@@ -19,7 +19,7 @@ async function createHotel(newHotel) {
 
 const cors = require("cors");
 const corsOptions = {
-  origin: "http://localhost:5173",
+  origin: "https://frontemd-for-bi-1-3-hw-2.vercel.app",
   credentials: true,
   optionSuccessStatus: 200,
 };
