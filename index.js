@@ -19,7 +19,7 @@ async function createHotel(newHotel) {
 
 const cors = require("cors");
 const corsOptions = {
-  origin: "*",
+  origin: "http://localhost:5173",
   credentials: true,
   optionSuccessStatus: 200,
 };
